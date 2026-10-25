@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:label="PyPocket"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:theme="@android:style/Theme.Material.NoActionBar"
         android:supportsRtl="true">
         <activity
             android:name=".MainActivity"
