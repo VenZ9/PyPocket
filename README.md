@@ -5,6 +5,7 @@ PyPocket is an offline-first Python IDE and beginner learning app for Android. I
 ## Features
 
 - Dark, phone-sized editor with Python syntax colors, line numbers, indentation, tabs, save, undo, and comment controls.
+- Custom PyPocket branding with a matching Android adaptive launcher icon.
 - Runs Python 3.11 in the app. print(), exceptions and tracebacks, and interactive input() are handled by the embedded interpreter.
 - Create, edit, rename, save, close, and reopen .py files in persistent app-private storage.
 - Eight offline lessons with editable examples, exercises, and on-device progress.

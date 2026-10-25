@@ -13,6 +13,8 @@ class ProjectStore(context: Context) {
         .sortedBy(String::lowercase)
 
     fun read(name: String): String = file(name).readText()
+    fun size(name: String): Long = file(name).length()
+    fun modified(name: String): Long = file(name).lastModified()
 
     fun save(name: String, contents: String) {
         val target = file(name)
